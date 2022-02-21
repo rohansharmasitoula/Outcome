@@ -13,7 +13,7 @@ st.write('Upload a CSV file containing subjects and the respective marks for a s
 
 image = Image.open('sample.jpg')
 st.image(image, caption='sample')
-sample=pd.read_csv('sample.csv')
+
 
 
 uploaded_file = st.file_uploader("Choose a file")
