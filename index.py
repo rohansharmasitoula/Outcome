@@ -40,7 +40,7 @@ if uploaded_file is not None:
     st.write(df_min_max_scaled.describe())
 
     df_sc=df_min_max_scaled.describe()
-    df_new=df_min_max_scaled.mean();
+    df_new=df_min_max_scaled.std();
 
     
     df_score=df_sc.iloc[1,:]
